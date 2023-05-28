@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace FactoryPattern
 {
-    public class Cars : IVehicle
+    public class Car : IVehicle
     {
-        public Cars() 
+        public Car() 
         {
         }
 

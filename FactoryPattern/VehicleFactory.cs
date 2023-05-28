@@ -10,8 +10,7 @@ namespace FactoryPattern
     {
         public static IVehicle GetVehicle(int wheelCount)
         {
-            if(wheelCount == 4)
-            {
+            
                 switch (wheelCount)
                 {
                     case 2:
@@ -19,11 +18,11 @@ namespace FactoryPattern
                         case 3:
                             return new ThreeWheeler();
                     case 4:
-                        return new Cars();
+                        return new Car();
                     default:
-                        return new Cars();
+                        return new Car();
                 }
-            }
+            
         }
     }
 }

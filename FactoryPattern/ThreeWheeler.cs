@@ -11,6 +11,7 @@ namespace FactoryPattern
         public void Drive()
         {
             Console.WriteLine("Hur dur I only have three wheels lol");
+            Console.WriteLine("You have a working... slingshot car");
         }
     }
 }
